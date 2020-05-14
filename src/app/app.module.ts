@@ -1,11 +1,11 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-import { AppComponent } from './app.component';
+import {  HostViewAccessor, AppComponent, RowComponent, CellComponent } from './app.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    HostViewAccessor, AppComponent, RowComponent, CellComponent
   ],
   imports: [
     BrowserModule
